@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <script 
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous">
+  </script>
+  <script src="/main.js"></script>
   <link rel="stylesheet"
         href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
   <style>
@@ -57,18 +63,18 @@
       </ol>
     </aside>
   </div>
-  <div class="row mb-5">
+  <div id="form" class="row mb-5">
     <div class="col-sm-4">
       Red
-      <input class="form-control" type="number" min="0" max="255" value="255">
+      <input id="red" class="form-control" type="number" min="0" max="255" value="255">
     </div>
     <div class="col-sm-4">
       Blue
-      <input class="form-control" type="number" min="0" max="255" value="255">
+      <input id="blue" class="form-control" type="number" min="0" max="255" value="255">
     </div>
     <div class="col-sm-4">
       Green
-      <input class="form-control" type="number" min="0" max="255" value="255">
+      <input id="green" class="form-control" type="number" min="0" max="255" value="255">
     </div>
   </div>
 </div>
